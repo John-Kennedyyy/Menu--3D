@@ -77,7 +77,6 @@ nav ul li a {
 }
 
 .container .card {
-    width: 300px;
     height: 450px;
     padding: 20px;
     margin: 40px;
@@ -257,4 +256,16 @@ footer {
     border: 0;
     border-radius: 50px;
     background-color: #0e76a8 ;
+}
+
+@media screen and (max-width: 768px) {
+    .container .card {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container .card {
+        width: 90%;
+    }
 }
